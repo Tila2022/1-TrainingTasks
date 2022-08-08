@@ -26,11 +26,6 @@ public class Task {
     }
 
     public static void main(String[] args) {
-        System.out.println("Домашнее задание №6");
-        System.out.println("Реализовать функцию, принимающую на вход массив и целое число");
-        System.out.println("Данная функция должна вернуть индекс этого числа в массиве");
-        System.out.println("Если число в массиве отсутствует - вернуть -1");
-        System.out.println("Реализовать процедуру, которая переместит все значимые элементы влево, заполнив нулевые");
         int[] numbers = {34, 0, 0, 14, 15, 0, 18, 0, 0, 1, 20};
         System.out.println("Дано: " + Arrays.toString(numbers));
         System.out.println("Ответ:" + Arrays.toString(numbers));
